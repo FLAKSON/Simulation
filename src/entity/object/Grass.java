@@ -1,9 +1,10 @@
-package entity;
+package entity.object;
 
+import entity.abastract.Entity;
+import ground.Coordinates;
+// Трава, можно кушать
 public class Grass extends Entity {
-    public Grass() {
-        this.edible = true;
-        this.canMove = false;
+    public Grass(Coordinates coordinates, boolean edible) {
+        super(coordinates, edible);
     }
-
 }
