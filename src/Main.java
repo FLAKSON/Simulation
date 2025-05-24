@@ -8,5 +8,6 @@ public class Main {
         FieldConsoleRender fieldConsoleRender = new FieldConsoleRender();
         fieldConsoleRender.render(field);
         int asdas = 1;
+
     }
 }
