@@ -1,6 +1,6 @@
 package entity.animals;
 
-import entity.abastract.Creature;
+import entity.abstracted.Creature;
 import ground.Coordinates;
 // Хищник
 public class Predator extends Creature {
@@ -11,5 +11,7 @@ public class Predator extends Creature {
 
     public Predator(Coordinates coordinates, boolean edible) {
         super(coordinates, edible);
+        setSpeed(8);
+        setHealth(10);
     }
 }

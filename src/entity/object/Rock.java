@@ -1,6 +1,6 @@
 package entity.object;
 
-import entity.abastract.Entity;
+import entity.abstracted.Entity;
 import ground.Coordinates;
 // Камень, нельзя кушать.
 public class Rock extends Entity {

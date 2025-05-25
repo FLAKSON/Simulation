@@ -1,7 +1,6 @@
 package ground;
 
-import entity.abastract.Creature;
-import entity.abastract.Entity;
+import entity.abstracted.Entity;
 
 // Рендеринг поля.
 public class FieldConsoleRender {
@@ -22,13 +21,9 @@ public class FieldConsoleRender {
             System.out.println(line);
         }
     }
-    public String ColorizeEmptyField() {
-        String result = EMPTY_FIELD_SPRITE;
-        return result;
-    }
 
     public String getSpriteForField() {
-        return ColorizeEmptyField();
+        return EMPTY_FIELD_SPRITE;
     }
     public String getEntitySprite(Coordinates coordinates , Field field) {
         Entity entity = field.getEntity(coordinates);

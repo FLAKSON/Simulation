@@ -1,4 +1,4 @@
-package entity.abastract;
+package entity.abstracted;
 
 import ground.Coordinates;
 // Абстрактный класс для именно живых существ.
