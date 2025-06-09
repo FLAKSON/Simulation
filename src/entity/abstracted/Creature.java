@@ -26,6 +26,7 @@ public abstract class Creature extends Entity {
         this.health = health;
     }
 
+
     public void makeMove() {
 
     }

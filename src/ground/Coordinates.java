@@ -22,4 +22,5 @@ public class Coordinates {
         result = 31 * result + Y;
         return result;
     }
+
 }

@@ -22,6 +22,14 @@ public class Field {
     final int SIZE_Y = 40;
     final Random random = new Random();
 
+    public int getSIZE_Y() {
+        return SIZE_Y;
+    }
+
+    public int getSIZE_X() {
+        return SIZE_X;
+    }
+
     HashMap<Coordinates, Entity> fields = new HashMap<>();
 
 
@@ -96,5 +104,8 @@ public class Field {
     }
     public Entity getEntity(Coordinates coordinates) {
         return fields.get(coordinates);
+    }
+    public void fieldClear(Coordinates coordinates) {
+        fields.remove(coordinates);
     }
 }

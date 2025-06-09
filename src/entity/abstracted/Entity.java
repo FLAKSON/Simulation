@@ -8,6 +8,13 @@ public abstract class Entity {
     public Entity(Coordinates coordinates, boolean edible) {
         this.coordinates = coordinates;
         this.edible = edible;
+    }
 
+    public Coordinates getCoordinates() {
+        return coordinates;
+    }
+
+    public boolean isEdible() {
+        return edible;
     }
 }
